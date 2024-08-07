@@ -6,7 +6,7 @@ function Home() {
   const generatorRange = Generator(2, 12, 2);
 
   return (
-    <div className="bg-gray-50 min-h-screen flex items-center justify-center p-6">
+    <div className="bg-gray-50 min-h-screen flex items-center justify-center p-4">
       <div className="bg-white shadow-lg rounded-lg overflow-hidden max-w-6xl w-full flex flex-col md:flex-row">
         <section className="flex-1 p-6 flex flex-col items-center border-b md:border-b-0 md:border-r border-gray-300">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
